@@ -1,0 +1,6 @@
+python -m venv .venv
+.venv\Scripts\activate.bat di anaconda
+.venv\Scripts\activate di terminal vscode
+pip install -r requirements.txt
+py vector_embeddings.py
+py app.py

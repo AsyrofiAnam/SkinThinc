@@ -1,0 +1,346 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1320px) {
+    #myCarousel a.carousel-control-prev {
+      left: 43.3%;
+    }
+  }
+  
+  @media (min-width: 991px) and (max-width: 1300px) {
+    .banner_main .bluid h1 {
+      font-size: 44px;
+      line-height: 57px;
+      padding-bottom: 24px;
+    }
+    .banner_main .bluid .read_more {
+      max-width: 198px;
+    }
+    #myCarousel a.carousel-control-prev {
+      left: 40.3%;
+    }
+    .banner_main .bluid p {
+      padding-bottom: 36px;
+    }
+    .wallet {
+      padding: 113px 0px 0 0px;
+    }
+    .graf_tab li a {
+      padding: 12px 19px;
+    }
+    .usd h4 {
+      font-size: 16px;
+    }
+    .growth h3 {
+      padding-left: 0;
+    }
+    .pa_ri {
+      padding-right: 7px !important;
+    }
+    .h3tota {
+      padding-left: 30px !important;
+    }
+  
+    img {
+      margin-left: -50px;
+      max-width: 450px;
+      height: 500px;
+    }
+  
+    .bluid {
+      margin-left: -10px;
+    }
+  
+    body {
+      overflow-y: auto;
+    }
+  
+    .msger {
+      flex: 1; /* Allow msger to fill remaining space */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #f7f7f7; /* Contoh warna untuk messenger */
+      transition: margin-left 0.5s ease; /* Transisi untuk perubahan margin */
+    }
+  
+    .msger-header {
+      margin-left: 0px;
+    }
+
+    .trash-icon {
+      font-size: 1.15em;
+      color: #ccc;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    ul.email li {
+      padding: 0px 20px;
+    }
+    .banner_main .bluid h1 {
+      font-size: 34px;
+      line-height: 45px;
+      padding-bottom: 16px;
+    }
+    .banner_main .bluid .read_more {
+      max-width: 160px;
+      margin-right: 9px;
+    }
+    #myCarousel a.carousel-control-prev {
+      left: 35.3%;
+    }
+    .banner_main .bluid p {
+      padding-bottom: 36px;
+    }
+    body {
+      overflow-y: auto;
+    }
+  
+    img {
+      margin-left: -30px;
+      max-width: 370px;
+      height: 420px;
+    }
+  
+    .bluid {
+      margin-left: -10px;
+    }
+  
+    header {
+      margin-left: -30px;
+      font-size: 35px;
+    }
+  
+    .msger {
+      flex: 1; /* Allow msger to fill remaining space */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #f7f7f7; /* Contoh warna untuk messenger */
+      transition: margin-left 0.5s ease; /* Transisi untuk perubahan margin */
+    }
+  
+    .msger-header {
+      margin-left: 0px;
+    }
+
+    .trash-icon {
+      font-size: 0.6em;
+      color: #ccc;
+    }
+  }
+  
+  @media (min-width: 640px) and (max-width: 769px) {
+    header {
+      margin-left: -30px;
+      font-size: 30px;
+    }
+  
+    .banner_main .bluid h1 {
+      font-size: 51px;
+      line-height: 67px;
+    }
+  
+    .d_none {
+      display: none !important;
+    }
+  
+    body {
+      overflow-y: auto;
+    }
+  
+    img {
+      margin-left: -60px;
+      max-width: 320px;
+      height: 350px;
+    }
+  
+    .bluid {
+      margin-left: 20px;
+    }
+  
+    .msger {
+      flex: 1; /* Allow msger to fill remaining space */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #f7f7f7; /* Contoh warna untuk messenger */
+      transition: margin-left 0.5s ease; /* Transisi untuk perubahan margin */
+    }
+  
+    .msger-header {
+      margin-left: 0px;
+    }
+  
+    .trash-icon {
+      font-size: 0.65em;
+      color: #ccc;
+    }
+    .msger-header {
+      display: flex; /* Enable flexbox */
+      justify-content: space-between; /* Space between children */
+      align-items: center; /* Center items vertically */
+      position: relative;
+      border-bottom: var(--border); /* Adjust border for header only */
+      background: #124051;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+    }
+    
+    .msger-header-title {
+      flex: 1; /* Allow this to grow and take up available space */
+      display: flex; /* Enable flexbox for title */
+      justify-content: center; /* Center the logo horizontally */
+    }
+  }
+  
+  @media (max-width: 670px) {
+    .con_img {
+      display: block; /* Default tampil jika belum klik get started */
+    }
+    .con_img.hide-img {
+      display: none; /* Hilang setelah klik get started */
+    }
+  
+    .msger {
+      flex: 1; /* Allow msger to fill remaining space */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #f7f7f7; /* Contoh warna untuk messenger */
+      transition: margin-left 0.5s ease; /* Transisi untuk perubahan margin */
+    }
+  
+    .bluid {
+      margin-left: 20px;
+    }
+  
+    .msger-header {
+      margin-left: 0px;
+    }
+    
+    header {
+      margin-left: -10px;
+      font-size: 20px;
+    }
+  
+    .d_none {
+      display: none !important;
+    }
+  
+    body {
+      overflow-y: auto;
+    }
+  
+    
+    .banner_main .bluid h1 {
+      font-size: 40px;
+      line-height: 42px;
+      padding-bottom: 11px;
+    }
+    .banner_main .bluid p {
+      padding-bottom: 20px;
+      font-size: 15px;
+    }
+    .banner_main .bluid .read_more {
+      margin-right: 5px;
+      max-width: 124px;
+      height: 48px;
+      line-height: 48px;
+      font-size: 16px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      gap: 8px;
+  }
+  
+    .retry-btn,
+    
+  .trash-icon {
+      font-size: 1em;
+      color: #ccc;
+  }
+
+  .msger {
+      margin-left: 0; /* Pastikan msger tidak punya margin kiri */
+  }
+
+  .msger.full-width {
+      margin-left: -300px; /* Pastikan msger tetap lebar penuh */
+  }
+
+  .left-container {
+    width: 100%;
+    background-color: #124051;
+    height: 100%; /* Memberikan tinggi penuh */
+    position: absolute; /* Agar dapat melayang di atas elemen lain */
+    z-index: 10; /* Supaya tetap terlihat di atas elemen lainnya */
+  }
+
+  .msger.full-width {
+    margin-left: 0; /* Pada layar kecil, tidak ada margin kiri */
+  }
+
+  .left-container.hidden {
+    transform: translateX(-100%); 
+    opacity: 0; 
+  }
+
+  .left-container h5 {
+    text-align: center;
+  }
+
+  .toggle-button {
+    font-size: 20px;
+    position: absolute;
+    border-radius: 10px;
+    left: 10px;
+    top: 15px;
+    background: #124051;
+    color: #bdbdbd;
+    border: none;
+    padding: 3px 12px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s;
+  }
+  
+  .toggle-button:hover {
+    color: whitesmoke;
+    background: rgb(27, 88, 110);
+  }
+}
+
+  @media (max-width: 390px) {
+    #textInput {
+      padding-top: 14px;
+    }
+
+    .msger-inputarea * {
+      font-size: 0.95em;
+    }
+
+    .clear-btn {
+      padding: 2px;
+      font-size: 0.95em;
+    }
+
+    p {
+      margin: 0;
+      color: #fff;
+      font-weight: 400;
+      font-size: 0.95em;
+    }
+
+    .left-msg .msg-bubble {
+      font-size: 0.95em;
+    }
+    
+    .right-msg .msg-bubble {
+      font-size: 0.95em;
+    }
+  }
